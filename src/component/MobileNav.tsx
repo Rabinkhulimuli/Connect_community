@@ -12,7 +12,7 @@ function MobileNav() {
   return (
     <div>
       <Sheet>
-          <SheetTrigger  className="py-1">
+          <SheetTrigger  className="">
             {" "}
             <MenuIcon />
           </SheetTrigger>
