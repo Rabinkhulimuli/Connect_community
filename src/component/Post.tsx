@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Comment from './Comment'
 
 function Post() {
   return (
@@ -75,6 +76,7 @@ function Post() {
             </span>
             </div>
       </div>
+      <Comment />
     </div>
   )
 }
