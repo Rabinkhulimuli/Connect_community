@@ -4,7 +4,6 @@ import React from 'react'
 function FriendRequest() {
   return (
     <div>
-      FriendRequest
       <div className=' flex flex-col gap-4 text-sm shadow-md rounded-lg p-1' >
         {/* top */}
         <div  
