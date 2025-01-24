@@ -38,7 +38,7 @@ function Ad({size}:{size:"sm"| "md"|"lg"}) {
                 >BigChef Lounge</span>
             </div>
             <p
-            className={size ==="sm"?"text-xs":"text-sm"}
+            className={`${size ==="sm"?"text-xs":"text-sm"} overflow-hidden max-h-20` }
             >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, harum explicabo similique optio cum corrupti eius perferendis placeat ullam veniam inventore id rerum neque modi ipsam voluptatem tempore nesciunt. Consequuntur.
             </p>
