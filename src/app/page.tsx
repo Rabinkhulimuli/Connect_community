@@ -12,7 +12,7 @@ export default function Home() {
    <div className="flex gap-6 pt-6" >
     <div 
       className="w-[20%] hidden lg:block "
-    ><Leftmenu/> </div>
+    ><Leftmenu type="home" /> </div>
     <div className="w-full md:w-[70%] lg:w-[50%]">
       <Stories/>
       <AddPost/>

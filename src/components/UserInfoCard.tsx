@@ -7,7 +7,7 @@ function UserInfoCard({ userId }: { userId: string }) {
     <div className="p-4 bg-white rounded-lg  shadow-md text-sm flex flex-col gap-4">
       {/* top */}
       <div className="flex justify-between items-center font-medium">
-        <span className="text-gray-500">User Information</span>
+        <span className="text-gray-500">User Information{userId} </span>
         <Link className="text-blue-500 text-xs" href="/">
           See all
         </Link>
@@ -49,7 +49,19 @@ function UserInfoCard({ userId }: { userId: string }) {
             className="text-blue-500 font-medium"
             href="/lambda">lambda.dev</Link>
           </div>
+          <div
+          className="flex gap-1  items-center"
+          >
+            <Image  src="/date.png" width={16} height={16} alt="" />
+            <span>Joined November 2024</span>
+          </div>
         </div>
+        <button
+        className="bg-blue-500 text-white text-sm rounded-md"
+        >Follow</button>
+        <span
+        className="text-red-400 self-end  text-xs cursor-pointer"
+        >Block User</span>
       </div>
     </div>
   );
